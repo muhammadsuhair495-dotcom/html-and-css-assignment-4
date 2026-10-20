@@ -1,0 +1,727 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.figma{
+    background-color: black;
+    color: white;
+}
+.navbar{
+    
+    height: 100vh;
+  
+}
+.logo{
+    width: 90%;
+    height: 100vh;
+    position: relative;
+    left: 5%;
+
+}
+.logo-img{
+    width: 100%;
+}
+
+.contact{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.con-heading{
+    text-align: center;
+}
+.contact-work{
+  width: 50%;
+  position: relative;
+  bottom: 28%;  
+}
+.con-para{
+    font-size: 12px;
+}
+.con-btn{
+    width: 28%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(220, 3, 3);
+    color: white;
+    outline: none;
+    border: none;
+    position: relative;
+    top: 8%;
+    left: 35%;
+
+
+}
+.our{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.our-work{
+
+    height: 300px;
+    position: relative;
+    
+    left: 8%;
+    bottom: 80%;
+
+}
+.our-img{
+    position: relative;
+    right: 7%;
+    bottom: 80%;
+}
+.movie{
+    width: 80%;
+    position: relative;
+    left: 10%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 0%;
+    font-size: 10px;
+}
+.movie-work{
+    width: 20%;
+    height: 50%;
+    position: relative;
+    
+    bottom: 150%;
+    background-color: rgb(15, 15, 15)
+    
+    
+
+
+}
+.mov-img{
+    position: absolute;
+    top: 62%;
+    left: 60%;
+}
+.provide{
+    height: 100vh;
+}
+.provide-work{
+    width: 80%;
+    position: relative;
+    right: 25%;
+    bottom: 200%;
+    left: 10%;
+}
+.device{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.device-work{
+   width: 30%;
+   height: 200px; 
+   position: relative;
+   bottom: 270%;
+   left: 10%;
+   padding: 20px ;
+   border-radius: 15px;
+   background-color: black;
+   background-image:linear-gradient(  to right , black,rgb(32, 31, 31));
+   
+
+}
+.dev-heading-1{
+    position: relative;
+    left:20%;
+    bottom: 25%;
+}
+.device{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.device-work-2{
+   width: 30%;
+   height: 200px; 
+   position: relative;
+   bottom: 330%;
+   left: 10%;
+   padding: 20px ;
+   border-radius: 15px;
+   background-color: black;
+   background-image:linear-gradient(  to right , black,rgb(32, 31, 31));
+   
+
+}
+.dev-heading-2{
+    position: relative;
+    left:20%;
+    bottom: 20%;
+}
+.freq{
+    height: 100vh;
+}
+.freq-work{
+    width: 80%;
+    height: 100px;
+    position: relative;
+    bottom: 380%;
+    left: 10%;
+
+}
+.freq-btn{
+    width: 10%;
+    height: 40px;
+    position: relative;
+    bottom: 25%;
+    left: 90%;
+    background-color: red;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+
+
+}
+.Question{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+.left-site{
+    width: 35%;
+    position: relative;
+    bottom: 430%;
+    left: 10%;
+
+}
+.ques-btn{
+height: 50px;
+width: 50px;
+background-color: rgb(33, 27, 27);
+border-radius: 10px;
+color: white;
+border: none;
+outline: none;
+}
+.que-head{
+    position: relative;
+    bottom: 90px;
+    font-size: 50px;
+    margin-left: 100%;
+}
+.ques-heading{
+position: relative;
+bottom: 50px;
+left: 15%;
+}
+.ques-para{
+    position: relative;
+    bottom: 75px;
+    left: 15%;
+
+}
+.line{
+    width: 100%;
+    height: 1px;
+    margin-bottom: 5%;
+    background-color: rgb(236, 74, 74);
+}
+.right-site{
+    width: 35%;
+    position: relative;
+    right: 10%;
+    bottom: 430%;
+}
+.choose{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.choose-work{
+    width: 80%;
+    height: 100px;
+    margin-left: 10%;
+       position: relative;
+    bottom: 430%;
+}
+.choose-btn{
+    width: 50px;
+    display: flex;
+    margin-right: 25%;
+    position: relative;
+    bottom: 427%;
+
+}
+.chos-btn{
+    height: 30px;
+    background-color: rgb(148, 147, 147);
+    color: white;
+    border: none;
+    outline: none;
+
+}
+.plan{
+
+    height: 100vh;
+    display: flex;
+    
+
+}
+.plan-work{
+    width: 25%;
+    height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,rgb(41, 39, 39),rgb(31, 30, 30));
+    margin-left: 6%;
+    position: relative;
+    bottom: 510%;
+    
+}
+.pl-heading{
+    margin-bottom: 5%;
+}
+.pla-num{
+    margin-top: 10%;
+}
+.mon{
+    margin-left: 18%;
+    position: relative;
+    bottom: 8%;
+    
+}
+.pl-btn{
+    width: 30%;
+    height: 12%;
+    background-color: rgb(23, 22, 22);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.pla-btn{
+    width: 35%;
+    height: 15%;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+.start-movie{
+    width: 80%;
+    position: absolute;
+    top: 550%;
+    left: 10%;
+}
+.start{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.start-work-1{
+width: 40%;
+margin-left: 15%;
+position: relative;
+bottom: 530%;
+}
+.start-work-2{
+    width: 20%;
+    margin-right: 10%;
+    position: relative;
+bottom: 530%;
+
+}
+.start-btn{
+    height: 6%;
+    width: 40%;
+    background-color: red;
+    color: white;
+}
+.twiter{
+    height: 100vh;
+    width: 80%;
+    margin-left: 10%;
+   
+    display: flex;
+    justify-content: space-between;
+}
+.tw-work{
+    position: relative;
+    bottom: 590%;
+}
+/* @media (min-width :550px) {
+    
+.figma{
+    background-color: black;
+    color: white;
+}
+.navbar{
+    
+    height: 100vh;
+  
+}
+.logo{
+    width: 70%;
+    height: 100vh;
+    position: relative;
+    left: 5%;
+
+}
+.logo-img{
+    width: 100%;
+    height: 30%;
+}
+
+.contact{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.con-heading{
+    text-align: center;
+
+}
+.contact-work{
+  width: 50%;
+  font-size:5px;
+  position: relative;
+  bottom: 75%;
+  right: 40px;  
+}
+.con-para{
+    font-size: 12px;
+}
+.con-btn{
+    width: 60%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(220, 3, 3);
+    color: white;
+    outline: none;
+    border: none;
+    position: relative;
+    top: 5%;
+    left: 15%;
+
+
+}
+.our{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.our-work{
+
+    height: 300px;
+    position: relative;
+    
+    left: 8%;
+    bottom: 150%;
+
+
+.movie{
+    width: 80%;
+    position: relative;
+    left: 10%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 0%;
+    font-size: 10px;
+}
+.movie-work{
+    width: 20%;
+    height: 50%;
+    position: relative;
+    
+    bottom: 150%;
+    background-color: rgb(15, 15, 15)
+    
+    
+
+
+}
+.mov-img{
+    position: absolute;
+    top: 62%;
+    left: 60%;
+}
+.provide{
+    height: 100vh;
+}
+.provide-work{
+    width: 80%;
+    position: relative;
+    right: 25%;
+    bottom: 200%;
+    left: 10%;
+}
+.device{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.device-work{
+   width: 30%;
+   height: 200px; 
+   position: relative;
+   bottom: 270%;
+   left: 10%;
+   padding: 20px ;
+   border-radius: 15px;
+   background-color: black;
+   background-image:linear-gradient(  to right , black,rgb(32, 31, 31));
+   
+
+}
+.dev-heading-1{
+    position: relative;
+    left:20%;
+    bottom: 25%;
+}
+.device{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.device-work-2{
+   width: 30%;
+   height: 200px; 
+   position: relative;
+   bottom: 330%;
+   left: 10%;
+   padding: 20px ;
+   border-radius: 15px;
+   background-color: black;
+   background-image:linear-gradient(  to right , black,rgb(32, 31, 31));
+   
+
+}
+.dev-heading-2{
+    position: relative;
+    left:20%;
+    bottom: 20%;
+}
+.freq{
+    height: 100vh;
+}
+.freq-work{
+    width: 80%;
+    height: 100px;
+    position: relative;
+    bottom: 380%;
+    left: 10%;
+
+}
+.freq-btn{
+    width: 10%;
+    height: 40px;
+    position: relative;
+    bottom: 25%;
+    left: 90%;
+    background-color: red;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+
+
+}
+.Question{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+.left-site{
+    width: 35%;
+    position: relative;
+    bottom: 430%;
+    left: 10%;
+
+}
+.ques-btn{
+height: 50px;
+width: 50px;
+background-color: rgb(33, 27, 27);
+border-radius: 10px;
+color: white;
+border: none;
+outline: none;
+}
+.que-head{
+    position: relative;
+    bottom: 90px;
+    font-size: 50px;
+    margin-left: 100%;
+}
+.ques-heading{
+position: relative;
+bottom: 50px;
+left: 15%;
+}
+.ques-para{
+    position: relative;
+    bottom: 75px;
+    left: 15%;
+
+}
+.line{
+    width: 100%;
+    height: 1px;
+    margin-bottom: 5%;
+    background-color: rgb(236, 74, 74);
+}
+.right-site{
+    width: 35%;
+    position: relative;
+    right: 10%;
+    bottom: 430%;
+}
+.choose{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.choose-work{
+    width: 80%;
+    height: 100px;
+    margin-left: 10%;
+       position: relative;
+    bottom: 430%;
+}
+.choose-btn{
+    width: 50px;
+    display: flex;
+    margin-right: 25%;
+    position: relative;
+    bottom: 427%;
+
+}
+.chos-btn{
+    height: 30px;
+    background-color: rgb(148, 147, 147);
+    color: white;
+    border: none;
+    outline: none;
+
+}
+.plan{
+
+    height: 100vh;
+    display: flex;
+    
+
+}
+.plan-work{
+    width: 25%;
+    height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,rgb(41, 39, 39),rgb(31, 30, 30));
+    margin-left: 6%;
+    position: relative;
+    bottom: 510%;
+    
+}
+.pl-heading{
+    margin-bottom: 5%;
+}
+.pla-num{
+    margin-top: 10%;
+}
+.mon{
+    margin-left: 18%;
+    position: relative;
+    bottom: 8%;
+    
+}
+.pl-btn{
+    width: 30%;
+    height: 12%;
+    background-color: rgb(23, 22, 22);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.pla-btn{
+    width: 35%;
+    height: 15%;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+.start-movie{
+    width: 80%;
+    position: absolute;
+    top: 550%;
+    left: 10%;
+}
+.start{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.start-work-1{
+width: 40%;
+margin-left: 15%;
+position: relative;
+bottom: 530%;
+}
+.start-work-2{
+    width: 20%;
+    margin-right: 10%;
+    position: relative;
+bottom: 530%;
+
+}
+.start-btn{
+    height: 6%;
+    width: 40%;
+    background-color: red;
+    color: white;
+}
+.twiter{
+    height: 100vh;
+    width: 80%;
+    margin-left: 10%;
+   
+    display: flex;
+    justify-content: space-between;
+}
+.tw-work{
+    position: relative;
+    bottom: 590%;
+}
+}
+
+
+} */
